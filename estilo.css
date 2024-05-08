@@ -1,0 +1,30 @@
+/*---FONTE---*/
+H1{
+   font-size: 126PX;
+   font-weight: 900;
+   line-height: 112PX;
+}
+H2{
+    font-size: 36PX;
+    line-height: 46PX;
+    font-weight: 900;
+}
+H3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #9E8C6C;
+    letter-spacing: 2px;
+}
+P{
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 400;
+  color: #333;
+}
+/*-----DEFALT-----*/
+.perfil img{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;  /*arredondar a foto*/
+}
