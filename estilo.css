@@ -22,7 +22,25 @@ P{
   font-weight: 400;
   color: #333;
 }
+/*-----Fonte-----*/
+
 /*-----DEFALT-----*/
+
+.botao{
+   padding: 15px 20px; 
+   width: 91.09px;
+   height: 24.90px;
+   margin-top: 193.52;
+   margin-left: 259.11px;
+   font-size: 7.29px;
+   line-height: 9.72px;
+   font-weight: 900;
+   letter-spacing: 0.81px;
+   text-align: center;
+   background-color: #0699A6;
+   color: white;
+   text-decoration: none; 
+}
 .perfil img{
     width: 350px;
     height: 350px;
