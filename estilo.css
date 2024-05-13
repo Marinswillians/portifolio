@@ -66,10 +66,10 @@ p{
 }
 
 /*-----TABLET-----*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 160px) {
     h1{
-        font-size: 86px;
-        line-height: 76px;
+        font-size: 56px;
+        line-height: 46px;
     }
      
     #header{
@@ -92,11 +92,6 @@ p{
         text-align: center;
     } 
 }
-    /*-----MOBILE-----*/
+    
 
-    @media screen and (max-width: 375px) {
-        h1{
-            font-size: 56px;
-            line-height:46px;
-        }
-    }
+    
