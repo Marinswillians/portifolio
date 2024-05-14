@@ -62,7 +62,7 @@ p{
 }
 
 .perfil-sobre{
-    width: 635px;
+    max-width: 635px;
 }
 
 /*-----TABLET-----*/
@@ -91,6 +91,7 @@ p{
         align-items: center;
         display: flex;
         text-align: center;
+       
     } 
 }
     
