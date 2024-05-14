@@ -84,7 +84,7 @@ p{
     #header .container{                        /*aqui funciona apenas nesse bloco*/
         flex-direction: column;
         align-items: center;
-        width: 100%;
+        max-width: 100%;
     }
     .perfil-sobre{               /*esse comando completo é para estilizar o texto do nome*/
         flex-direction: column;
