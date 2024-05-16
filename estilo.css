@@ -1,6 +1,6 @@
 /* --- FONTE --- */
 h1{
-    font-size: 126px;
+    font-size:126px;
     font-weight: 900;
     line-height: 112px;
     margin: 0 0 30px 0;
@@ -20,6 +20,13 @@ h3{
     letter-spacing: 2px;
     color: #9e8c6c;
     margin: 0 0 10px 0;  /*autura e largura*/ 
+}
+
+h4{
+    font-size: 66px;
+    line-height: 82px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
 }
 
 p{
@@ -92,7 +99,7 @@ p{
         display: flex;
         text-align: center;
        
-    } 
+    }     
 }
     
 
