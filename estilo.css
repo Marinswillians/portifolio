@@ -32,6 +32,7 @@ h5{
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
+    
 }
 p{
     font-size: 20px;
@@ -85,6 +86,7 @@ ul li a{
     width: 100%;
     padding: 180px 0 209px 0;
     background-color: #9e8c6c11;
+    
 }
 .perfil{
     width: 350px;
@@ -97,9 +99,11 @@ ul li a{
 
 .perfil-sobre{
     max-width: 635px;
+    
 }
 .sobre{
     width: 740px;
+    
 }
 /*-----HEADER-----*/
 
@@ -110,9 +114,11 @@ ul li a{
 .recentworks{
     margin-bottom: 100px;
     width: 350px;
+    
 }
 #main{
     padding-top: 96px;
+    
 }
 #main .container a{
     color: #0699a6;
@@ -120,38 +126,41 @@ ul li a{
     font-size: 20px;
     text-decoration: none;
     font-weight: 700;
+    
 }
 
 .sobre{
+    font-size: 20px;
+    line-height: 34px;
     width: 635px;
+    line-height: 24px;
+    display: flex;
     
 }
 .titleinfo{
+    line-height: 24px;
+    font-size: 18px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
 
-.titleinfo p{
-    text-align: right;
-    line-height: 24px;
-    font-size: 18px;
-    font-weight: 400;
-}
 .barra{
     width: 71px;
     height: 10px;
     background-color: #0699a6;
    }
-.skils{
-    width: 350px;
+.skills{
+
+    width: 635px;
+
+    
 }
-.abouteme,
-.info,
-.visual,
-.ui,
-.barra{                  /*Preciso declarar de forma correta ATENÇÃO*/
-   margin-bottom: 66px;
+.info{  
+    font-weight: 400;
+    font-size: 20px;    
+    line-height: 34px;                   /*Preciso declarar de forma correta ATENÇÃO*/
+    margin-bottom: 66px;
 }
 
 /*-----MAIN-----*/
@@ -242,6 +251,11 @@ ul li a{
         line-height: 24px;  
         display: flex;      
     }    
+    .barra{
+        width: 71px;
+        height: 10px;
+        background-color: #0699a6;
+       }
 }
     
 
