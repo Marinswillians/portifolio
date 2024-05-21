@@ -105,7 +105,13 @@ ul li a{
 }
 #main{
     padding-top: 96px;
-    display: flex;
+}
+#main .container a{
+    color: #0699a6;
+    line-height: 34px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
 }
 
 .sobre{
@@ -113,6 +119,12 @@ ul li a{
     
 }
 .titleinfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.titleinfo p{
     text-align: right;
     line-height: 24px;
     font-size: 18px;
@@ -123,8 +135,8 @@ ul li a{
     height: 10px;
     background-color: #0699a6;
    }
-.skills{
-    width: 635px;
+.skils{
+    width: 350px;
 }
 .abouteme,
 .info,
