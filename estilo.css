@@ -28,6 +28,11 @@ h4{
     font-weight: 900;
     text-align: center;
 }
+h5{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
 
 p{
     font-size: 20px;
@@ -63,6 +68,7 @@ ul{
 ul li{
     font-size: 20px;
     line-height: 34px;
+    font-weight: 400;
 }
 
 ul li a{
@@ -70,6 +76,7 @@ ul li a{
     color: #0699A6;
     text-decoration: none;
 }
+
 
 /* ----- HEADER----- */
 #header{
@@ -95,11 +102,21 @@ ul li a{
 .careertraints,
 .recentworks{
     margin-bottom: 100px;
-    
-
+    max-width: 400;
 }
 #main{
     padding-top: 96px;
+    display: flex;
+}
+
+.sobre{
+    width: 740px;
+    
+    
+}
+
+.experience{
+    display: flex;
 }
 
 /*-----footer-----*/
@@ -123,6 +140,7 @@ ul li a{
     font-weight: 900;
     text-decoration: none;
    }
+   
    .social{
     display: flex;
     width: 243px;
@@ -138,6 +156,10 @@ ul li a{
     h4{
         font-size: 40px;
         line-height: 50px;
+    }
+    h5{
+        font-size: 18px;
+        line-height: 24px;        
     }
 
     #footer .container a{
@@ -166,6 +188,19 @@ ul li a{
         text-align: center;
        
     }     
+    .skills ul li{
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+    .skills{
+        max-width: 375px;
+    }
+    .careertraints{
+        line-height: 30px;
+        font-size: 18px;
+        font-weight: 400;
+    }   
 }
     
 
