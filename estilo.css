@@ -123,7 +123,9 @@ ul li a{
     height: 10px;
     background-color: #0699a6;
    }
-
+.skills{
+    width: 635px;
+}
 .abouteme,
 .info,
 .visual,
