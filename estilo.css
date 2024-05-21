@@ -102,7 +102,7 @@ ul li a{
     
 }
 .sobre{
-    width: 740px;
+    width: 740px;         /*verificar esse valor*/
     
 }
 /*-----HEADER-----*/
@@ -132,11 +132,10 @@ ul li a{
     font-weight: 700;  
 }
 
-
 .sobre{
     font-size: 20px;
     line-height: 34px;
-    width: 635px;
+    max-width: 635px;
     line-height: 24px;      
 }
 .titleinfo{
@@ -154,7 +153,7 @@ ul li a{
    }
 .skills{
 
-    width: 635px;
+    max-width: 635px;
 }
 
 
@@ -257,6 +256,15 @@ ul li a{
         width: 71px;
         height: 10px;
         background-color: #0699a6;
+       }
+       .sobre{
+        max-width: 375px;
+       }
+       #main .container{
+        flex-direction: column-reverse;
+       }
+       .titleinfo{
+        flex-direction: column;
        }
 }
     
