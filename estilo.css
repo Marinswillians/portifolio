@@ -113,29 +113,31 @@ ul li a{
 .careertraints,
 .recentworks{
     margin-bottom: 100px;
-    width: 350px;
-    
+    width: 350px; 
 }
 #main{
     padding-top: 96px;
     
 }
+
+#main .container{
+    display: flex;
+}
+
 #main .container a{
     color: #0699a6;
     line-height: 34px;
     font-size: 20px;
     text-decoration: none;
-    font-weight: 700;
-    
+    font-weight: 700;  
 }
+
 
 .sobre{
     font-size: 20px;
     line-height: 34px;
     width: 635px;
-    line-height: 24px;
-    display: flex;
-    
+    line-height: 24px;      
 }
 .titleinfo{
     line-height: 24px;
@@ -153,9 +155,9 @@ ul li a{
 .skills{
 
     width: 635px;
-
-    
 }
+
+
 .info{  
     font-weight: 400;
     font-size: 20px;    
