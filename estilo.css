@@ -90,6 +90,9 @@ ul li a{
 .perfil-sobre{
     max-width: 635px;
 }
+.sobre{
+    width: 740px;
+}
 /*-----HEADER-----*/
 
 /*------Main------*/
@@ -98,7 +101,7 @@ ul li a{
 .careertraints,
 .recentworks{
     margin-bottom: 100px;
-    width: 410px;
+    width: 350px;
 }
 #main{
     padding-top: 96px;
@@ -106,15 +109,29 @@ ul li a{
 }
 
 .sobre{
-    width: 740px;
+    width: 635px;
     
 }
-
-.titleinfo{                  /*Preciso declarar de forma correta ATENÇÃO*/
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+.titleinfo{
+    text-align: right;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 400;
 }
+.barra{
+    width: 71px;
+    height: 10px;
+    background-color: #0699a6;
+   }
+
+.abouteme,
+.info,
+.visual,
+.ui,
+.barra{                  /*Preciso declarar de forma correta ATENÇÃO*/
+   margin-bottom: 66px;
+}
+
 /*-----MAIN-----*/
 
 /*-----footer-----*/
@@ -200,7 +217,8 @@ ul li a{
     }
     h5{
         font-size: 18px;
-        line-height: 24px;        
+        line-height: 24px;  
+        display: flex;      
     }    
 }
     
