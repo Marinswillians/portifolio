@@ -1,27 +1,25 @@
 /* --- FONTE --- */
+
 h1{
     font-size:126px;
     font-weight: 900;
     line-height: 112px;
     margin: 0 0 30px 0;
 }
-
 h2{
     font-size: 36px;
     line-height: 46px;
     font-weight: 900;
     margin: 0 0 20px 0; /*autura e largura sentido horario*/
 }
-
 h3{
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 2px;
-    color: #9e8c6c;
+    color: #9E8C6C;
     margin: 0 0 10px 0;  /*autura e largura*/ 
 }
-
 h4{
     font-size: 66px;
     line-height: 82px;
@@ -33,14 +31,13 @@ h5{
     font-weight: 400;
     line-height: 24px;
 }
-
 p{
     font-size: 20px;
     line-height: 34px;
     font-weight: 400;
     color: #333;
 }
-
+/*-----FONTE-----*/
 /* --- DEFAULT --- */
 .botao{
     padding: 18px 62px;
@@ -52,19 +49,16 @@ p{
     text-transform: uppercase; /* Caixa alta */
     color: #fff;
 }
-
 .container{
     max-width: 1024px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
-
 ul{
    list-style: none;
    padding-left: 0;   
 }
-
 ul li{
     font-size: 20px;
     line-height: 34px;
@@ -72,11 +66,11 @@ ul li{
 }
 
 ul li a{
-    font-weight: 700;
+    font-weight: 600;
     color: #0699A6;
     text-decoration: none;
 }
-
+/*-----DEFAUTE-----*/
 
 /* ----- HEADER----- */
 #header{
@@ -96,13 +90,15 @@ ul li a{
 .perfil-sobre{
     max-width: 635px;
 }
+/*-----HEADER-----*/
+
 /*------Main------*/
 .skillset,
 .awards,
 .careertraints,
 .recentworks{
     margin-bottom: 100px;
-    max-width: 400px;
+    width: 410px;
 }
 #main{
     padding-top: 96px;
@@ -114,12 +110,14 @@ ul li a{
     
 }
 
-.experience{
+.titleinfo{                  /*Preciso declarar de forma correta ATENÇÃO*/
     display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
+/*-----MAIN-----*/
 
 /*-----footer-----*/
-
 #footer{
     background-color: #9e8c6c11;
     width: 100%;
@@ -145,6 +143,7 @@ ul li a{
     width: 243px;
     justify-content: space-between;
    }
+   /*-----FOOTER-----*/
  
 /*-----TABLET-----*/
 @media screen and (max-width: 768px) {
@@ -152,22 +151,14 @@ ul li a{
         font-size: 56px;
         line-height: 46px;
     }
-    h4{
-        font-size: 40px;
-        line-height: 50px;
-    }
-    h5{
-        font-size: 18px;
-        line-height: 24px;        
-    }
 
-    #footer .container a{
-        font-size: 20px;
-        line-height: 36px;
-    }
-     
     #header{
         padding: 80px 0 130px 0;
+    }
+
+    #header .container{           /*aqui funciona apenas nesse bloco*/
+        flex-direction: column;
+        align-items: center;
     }
 
     .perfil{
@@ -175,31 +166,42 @@ ul li a{
         margin-bottom: 40px; 
     }
 
-    #header .container{           /*aqui funciona apenas nesse bloco*/
-        flex-direction: column;
-        align-items: center;
-
-    }
     .perfil-sobre{               /*esse comando completo é para estilizar o texto do nome*/
         flex-direction: column;
         align-items: center;
         display: flex;
         text-align: center;
-       
-    }     
+    } 
+
+    h4{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    #footer .container a{
+        font-size: 20px;
+        line-height: 36px;
+    }
+     
     .skills ul li{
         font-size: 18px;
         line-height: 30px;
         font-weight: 400;
     }
+
     .skills{
         max-width: 375px;
     }
+
     .careertraints{
         line-height: 30px;
         font-size: 18px;
         font-weight: 400;
-    }   
+    }
+    h5{
+        font-size: 18px;
+        line-height: 24px;        
+    }    
 }
     
 
