@@ -147,9 +147,10 @@ ul li a{
 }
 
 .barra{
-    width: 71px;
+    width: 54px;
     height: 10px;
     background-color: #0699a6;
+    margin: 40px 0 40px 20px;
    }
    
 .skills{
@@ -254,9 +255,10 @@ ul li a{
         display: flex;      
     }    
     .barra{
-        width: 71px;
+        width: 54px;
         height: 10px;
         background-color: #0699a6;
+        margin: 40px 0 40px 20px;
        }
        .sobre{
         max-width: 375px;
