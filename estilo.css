@@ -151,8 +151,9 @@ ul li a{
     height: 10px;
     background-color: #0699a6;
    }
+   
 .skills{
-
+    padding-right: 125px;
     max-width: 635px;
 }
 
